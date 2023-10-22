@@ -1,0 +1,441 @@
+{
+	"pattrstorage" : 	{
+		"name" : "shottas",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"MainOut" : [ -5.495867768595037 ],
+					"quantmenu" : [ 1 ],
+					"scalentry" : [ "50 52 53 55 57 58 60 62 64 65 67 69 70" ],
+					"seqnum" : [ 0 ],
+					"seqrate" : [ 4 ],
+					"tempo" : [ 188.0 ],
+					"toggle" : [ 1 ],
+					"vst~" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "ValhallaRoom",
+							"origin" : "ValhallaRoom_x64.vst",
+							"type" : "VST",
+							"subtype" : "AudioEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "ValhallaRoom_x64.vst",
+								"plugindisplayname" : "ValhallaRoom",
+								"pluginsavedname" : "/Library/Audio/Plug-Ins/VST/ValhallaRoom_x64.vst",
+								"pluginsaveduniqueid" : 0,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"blob" : "811.CMlaKA....fQPMDZ....AHUc00F.AXPA....A........................................Hv6VMjLgXt....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVEFanEFarElTu8Vaf.Ga0cVZtYUYxMWZu4VOhDiK13RMh.BbxU1bkQmSg0VY8HBQkYVX0wFch.RaogWOh.iKxHiLv.CLv.iL3XSLvHiL4HBHvIWYjUFagkWOh.iKv.CMv.CLv.CLwfSN4fSN3.SMh.BYkMVX40iHv3BLwLyMwLyMwLyMyTyLzHCLyHBHHk1YnMTcz0iHv3BMyTSM2.CM2fCMyjyLyDSLh.RYgIGa4wTXzUVSogWOh.iKz.CLv.CLv.SM4XCLzXCM0HBHrEFckMUZ5UVOh.iKz.CLv.CLv.SM4XCLzXCM0HBHrEFckMjbuM2b8HBLtfSL4jSN4jSNxfCM2PCMxXiHfvVXzUVSuQlTgQWY8HBLt.SNvjCL4.SNyXSL3LSNxjCMh.BagQWYM8FYDUFbzgVOh.iK0HBHRQkPgM2bMUGazkFbrkWOh.iKxfCLv.CLv.SLwjiLvjiL4HBHRQEVuYWYx0iHv3BLyTyL0LSMyLSNxLiMxTSN0HBHRQERocFZMUGazkFbrkWOh.iKzPCMzPCMzbyM0TCNwLiMh.hTTgTZmgFVuYWYx0iHv3RMy.iLvDyLwTCN2jCNxDCNh.RYgIGa4MUZ5UVOh.iKv.SM2.SM2.SM3PyL3XSM3bSLh.RYgIGa4MjbuM2b8HBLtDCLv.CLv.CLwPSNvDSL1DiHfTVXxwVdM8FYREFck0iHv3BL4.SNvjCL4LiMwfyL4HSNzHBHkElbrkWSuQFQkAGcn0iHv3hLwjSN4jSN4fCNvbSNvbSLh.RYgIGa4MUYtQVOh.iK0bSN4jSN4fyLyDCL1jSN0HBHjklYlU2bo8la8HRLt.iHfPWdvUVOh.iKvfyLyLyLyLSM3DiM3XCLxHBHskFdL81Xq0iHvHBH0k1UoQFcn0iH2LSMh.RcogTYocFZz0iHzXCLh7hO.."
+							}
+
+						}
+ ],
+					"vst~[1]" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "FabFilter Pro-Q 3",
+							"origin" : "FabFilter Pro-Q 3.vst",
+							"type" : "VST",
+							"subtype" : "MidiEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "FabFilter Pro-Q 3.vst",
+								"plugindisplayname" : "FabFilter Pro-Q 3",
+								"pluginsavedname" : "/Library/Audio/Plug-Ins/VST/FabFilter Pro-Q 3.vst",
+								"pluginsaveduniqueid" : 0,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"blob" : "1564.CMlaKA....fQPMDZ....AXTTy.G...P.....APTYlEVcrQGHSUFczklamA...................T.3FYjPSE....fYA............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9C...3O...................................f+....9C...3u...f+.....D....P...P.A........3O...f+.....D..........................................................................................................................................XTTy.2.....O....PTYlEVcrQGHSUFczklam8++++e.....E.....kbu0RT.....LTcSYU..........."
+							}
+
+						}
+ ],
+					"vst~[2]" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "FabFilter Pro-C 2",
+							"origin" : "FabFilter Pro-C 2.vst",
+							"type" : "VST",
+							"subtype" : "MidiEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "FabFilter Pro-C 2.vst",
+								"plugindisplayname" : "FabFilter Pro-C 2",
+								"pluginsavedname" : "/Library/Audio/Plug-Ins/VST/FabFilter Pro-C 2.vst",
+								"pluginsaveduniqueid" : 0,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"blob" : "240.CMlaKA....fQ3MzZ....AXzPx.G...P.....tPTYlEVcrQGHSUFczklamA......................+LyLy7SFYpoO.B..+.H..zCyL2rOR2ns................+....7C.........+....7Cf.............7C...vO..............fOtQo69.L..7Cf..vO.B..+.g9Q9C...vO..............vOL8Iy9.L.............+....7C...vO....+....7C.........................+.D..7Cf........"
+							}
+
+						}
+ ],
+					"vst~[3]" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "FabFilter Pro-L 2",
+							"origin" : "FabFilter Pro-L 2.vst",
+							"type" : "VST",
+							"subtype" : "MidiEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "FabFilter Pro-L 2.vst",
+								"plugindisplayname" : "FabFilter Pro-L 2",
+								"pluginsavedname" : "/Library/Audio/Plug-Ins/VST/FabFilter Pro-L 2.vst",
+								"pluginsaveduniqueid" : 0,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"blob" : "180.CMlaKA....fQ3MzZ....AXDSx.G...P.....ePTYlEVcrQGHSUFczklamA......................+Xy1t0yDz0qOP+Go9Xbi94Cv..vO....................+.H.......vOpn5p..........................vO.B..+.H.............+.H.......fOpp5p+...............+PDQDA....vO.B.."
+							}
+
+						}
+ ],
+					"vst~[7]" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "Pro-L 2",
+							"origin" : "FabFilter Pro-L 2.component",
+							"type" : "AudioUnit",
+							"subtype" : "MidiEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "FabFilter Pro-L 2.component",
+								"plugindisplayname" : "Pro-L 2",
+								"pluginsavedname" : "/Library/Audio/Plug-Ins/Components/FabFilter Pro-L 2.component",
+								"pluginsaveduniqueid" : 0,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"blob" : "445.hAGaoMGcv.y0AHv.DTfAGfPBJr.CM3.WsEla0YVXiQWcxUlbTQVXzE1UyUmXzkGbkckckI2bo8laTQWdvUFUtEVak4kQgIlQowFckImQrE1YyIgQgIlQOEQ.D...............e...............A.Dn......f.9fSTrC...LfOP+Go....D3iwM5G...PA9.L......XvO........G..........B.........j..........J7Cf......vB.........v.P........M.........fC.........7..........P.........PD.........HA.........S7Cf.......E.........TA.........V7Cf......vE.........fAP........Y7Cf......fF.........rA.........bDLX......PG.........3wO.B..RXDSx.GD.HQX00lYeAwCDUlYgUGazAxTkQGco41YPD..H.vE.PB.o.PL.jC.9.vP.HE.WEvWAPV.lEvZAzG.......f.A.........vC..................P.+A"
+							}
+
+						}
+ ],
+					"vst~[8]" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "Pro-C 2",
+							"origin" : "FabFilter Pro-C 2.component",
+							"type" : "AudioUnit",
+							"subtype" : "MidiEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "FabFilter Pro-C 2.component",
+								"plugindisplayname" : "Pro-C 2",
+								"pluginsavedname" : "/Library/Audio/Plug-Ins/Components/FabFilter Pro-C 2.component",
+								"pluginsaveduniqueid" : 0,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"blob" : "565.hAGaoMGcv.y0AHv.DTfAGfPBJr.CM3.WsEla0YVXiQWcxUlbTQVXzE1UyUmXzkGbkckckI2bo8laTQWdvUFUtEVak4kQgIlQowFckImQrE1YyIgQgIlQOEQ.7A..............t......P........ADrHO.O...f.+jQlZB...LfPacad....DHDb......PA8b7bSC...XfO1pc5....G..........B.........j..........JzC4JBK...vB.........vvu.B......M.........fC.........7..........P.........PD.........HwO........S..........E.........TAPTqId....V.DP......vE+.H......fwO.B......YDzGyoM...fF.........rwO........b.........PG.........3QPDoId....e.DP.......H.........DB.........h7Cf......vH8nmh.....PB.........k.........fI.........bB.........n.........PJ.........nB.........q.DP.......K+.H......zB.....RXzPx.GD.HQX00lYeAwCDUlYgUGazAxTkQGco41YPD..H.vE.PB.o.PL.jC.9.vP.HE.WEv0Avc.dGv3ATO.......f.A.........vC..................P.2C"
+							}
+
+						}
+ ],
+					"aalto" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "VCV Rack 2",
+							"origin" : "VCV Rack 2.component",
+							"type" : "AudioUnit",
+							"subtype" : "Instrument",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "VCV Rack 2.component",
+								"plugindisplayname" : "VCV Rack 2",
+								"pluginsavedname" : "/Library/Audio/Plug-Ins/Components/VCV Rack 2.component",
+								"pluginsaveduniqueid" : 0,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"blob" : "1411.hAGaoMGcv.i0AHv.DTfAGfPBJr.CWYWYxMWZu4FUjEFcgwUag4VclE1XzUmbkIGUtEVakQEc4AWYWMWchQWdvUFDA7TDDrNJ09R+.fTEm.fJBA3Bo.Qi17.2DLSX2SFPcNARcUdSzwu3NPdOyQc2kTJIRxqgovjHB..EnTT.rB.s.nJ.THb7gp.uKri7gnYjEr9e9Z8s+OE601EtQx6t6tIQ.JNiZnP3cSV3vtIojR0s1Yqd0rOozL1c2jEt+sbqUp8OFKwTbmwt6lvfcgqQnGOLPi74Ad2jEshuKLDJEB7tIKhQO0cgahR.gbh3cSVvuRRIw6B6PkPOQI3cShPuJRr2cl+tqTrtaENTnFn.ASEFI.JshtU7.qPQJVqBF6acurWwbW4KkushcsZc2JBfRraxBHpTJDHdW33CNvC3fHIEn.MAMVnACRNwAZD9IVmRBvzvSrI0HZMJhiTw1ENBAIBhfgNcv6tqR2sSsKbrBOPbFABDh2c2EjvB7tvQHvBDYjRDa3c2cSVjXrK7STB4SCuKU1DA4EFVgM8tvMMfPqQv1h47miwZm0IHdP93te4dpYc+9+s1EtoQbF0PYn9HNcXhc6cgajbLZBkf2cWHvGXDd2cSoHC7wSr5zfJahRf2EdFaBLfTxhHzD9XW3nHJ3.5zcveNU+otU+5++eOozsj6+po502c2ouUZ1tvMRlwxsV8qsXr+8O0qRM06XtTa8R96Z9yb86J268t+bojRoSqW64ZK1i8ZUpaEmQxBuSVzsRKgyFfpNQHQOUHmFwoCYSTBMFq6WyZWsXsu0S3L1EV1Hgv6RYnBAm7yc6BCASU1PEBN4jTB4BQvPmL7twFJCOXRiv6tKLzL53.gfg2.Sj7DqPPH96M1+XO0udW5eVpkbU6eNkycI22NUKs5Wqct2ZGS48Z8TrUK4ula0rXCT4v4ozR8526d2Rt5Qb8Xeybt24rT6ZImsZtHa4n6kqTsT27F6eo1p0dkiGsm581+TuWsXGp1+O..uK7CcRYbjNxZTjZDMJRMh5VM0y8+6bL1Kob.YdOIBMgOdfSZCxoSjuIe6c2OQTHXkw.Qv.mBHJiPU.xHeBH2nFVMx.FZ.Q..X3BfF.o..jYHxJfD.AGB.AhCyQgw.wvfwYD..LFxX.A.Lv.AikLHAAvxzuNDngXyVtuKSm+r69uISexG4anpZxQDh5tE.SfU+6tvMibRXJlWF3cieo6ARNBcVWlF2IAAk.T38u.SosTx29CVEjblSmUkovIg.8LNjDK.rF.mtJOt0FGdFfKnxyS0O.izRUXBVRVQ0OI7FPPTAGFgx05ZWqoCYUSVLlQyFofmKwmDDRpQMcAJtSu9Va3KyjlrNppfrCK3UCAt.CjcfY8b2ZVgh9l4SSnz6E7fUDL+mbYFNAPkUjjI9J9ShslZZrPm6jv.rEWyRWuVhYkGQQtbRvpPkCjKSknmBZ.UIo4IvixvZrCLz6qG0anOrCHdNfqj7RxH0mzJ92U6RPJvgQfchga0zA+BA.rzajwBgAg93x26HwyZuprHZAc.jY3qJl9hUFxCZRACIUAfo.Ic2GwDzk2JE8o.B0eUCQnJq1n+P9LP1+ZDlXzDmJJq.cS8VZ5llADxHqdmLyX8KSfo.4AQKbqXgBxW2hDlTJxXs.FPslyE5dz+qhuN7ZPmoJicsPK6m6y9k40YV9eY4bhSpt1FWg9.avhGAHhF2OxoCbkBc38cnGrcy.wM1fgse.VymaiGWhjP6jvAX5T1QoEETWXhINfOQW6sIHgUCY0WWY0PVIUXislDgUWa0IgUCYkT.f..U.PG.HB.u..M.jC.AAvPEHSA2TvOEPD.......f.A.........PC..................PAIA"
+							}
+
+						}
+ ],
+					"poly~.1::fil" : [ 41 ],
+					"poly~.2::fil" : [ 52 ],
+					"poly~.3::fil" : [ 53 ],
+					"poly~.4::fil" : [ 54 ],
+					"poly~.5::fil" : [ 38 ],
+					"poly~.6::fil" : [ 61 ],
+					"poly~.7::fil" : [ 39 ],
+					"poly~.8::fil" : [ 46 ],
+					"poly~.9::fil" : [ 55 ],
+					"poly~.10::fil" : [ 44 ],
+					"poly~.11::fil" : [ 48 ],
+					"poly~.12::fil" : [ 56 ],
+					"poly~.13::fil" : [ 40 ],
+					"poly~.14::fil" : [ 28 ],
+					"poly~.15::fil" : [ 62 ],
+					"poly~.16::fil" : [ 26 ],
+					"poly~.17::fil" : [ 59 ],
+					"poly~.18::fil" : [ 42 ],
+					"poly~.19::fil" : [ 57 ],
+					"poly~.20::fil" : [ 58 ],
+					"poly~.21::fil" : [ 48 ],
+					"poly~.22::fil" : [ 44 ],
+					"poly~.23::fil" : [ 60 ],
+					"poly~.24::fil" : [ 59 ],
+					"poly~.25::fil" : [ 45 ],
+					"poly~.26::fil" : [ 49 ],
+					"poly~.27::fil" : [ 41 ],
+					"poly~.28::fil" : [ 53 ],
+					"poly~.29::fil" : [ 30 ],
+					"poly~.30::fil" : [ 42 ],
+					"poly~.31::fil" : [ 27 ],
+					"poly~.32::fil" : [ 29 ],
+					"poly~.33::fil" : [ 30 ],
+					"poly~.34::fil" : [ 39 ],
+					"poly~.35::fil" : [ 52 ],
+					"poly~.36::fil" : [ 53 ],
+					"poly~.37::fil" : [ 41 ],
+					"poly~.38::fil" : [ 54 ],
+					"poly~.39::fil" : [ 42 ],
+					"poly~.40::fil" : [ 43 ],
+					"poly~.41::fil" : [ 62 ],
+					"poly~.42::fil" : [ 37 ],
+					"poly~.43::fil" : [ 53 ],
+					"poly~.44::fil" : [ 41 ],
+					"poly~.45::fil" : [ 23 ],
+					"poly~.46::fil" : [ 9 ],
+					"poly~.47::fil" : [ 41 ],
+					"poly~.48::fil" : [ 44 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"MainOut" : [ -5.495867768595037 ],
+					"quantmenu" : [ 1 ],
+					"scalentry" : [ "50 52 53 55 57 58 60 62 64 65 67 69 70" ],
+					"seqnum" : [ 0 ],
+					"seqrate" : [ 16 ],
+					"tempo" : [ 188.0 ],
+					"toggle" : [ 1 ],
+					"vst~" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "ValhallaRoom",
+							"origin" : "ValhallaRoom_x64.vst",
+							"type" : "VST",
+							"subtype" : "AudioEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "ValhallaRoom_x64.vst",
+								"plugindisplayname" : "ValhallaRoom",
+								"pluginsavedname" : "/Library/Audio/Plug-Ins/VST/ValhallaRoom_x64.vst",
+								"pluginsaveduniqueid" : 0,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"blob" : "811.CMlaKA....fQPMDZ....AHUc00F.AXPA....A........................................Hv6VMjLgXt....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVEFanEFarElTu8Vaf.Ga0cVZtYUYxMWZu4VOhDiK13RMh.BbxU1bkQmSg0VY8HBQkYVX0wFch.RaogWOh.iKxHiLv.CLv.iL3XSLvHiL4HBHvIWYjUFagkWOh.iKv.CMv.CLv.CLwfSN4fSN3.SMh.BYkMVX40iHv3BLwLyMwLyMwLyMyTyLzHCLyHBHHk1YnMTcz0iHv3BMyTSM2.CM2fCMyjyLyDSLh.RYgIGa4wTXzUVSogWOh.iKz.CLv.CLv.SM4XCLzXCM0HBHrEFckMUZ5UVOh.iKz.CLv.CLv.SM4XCLzXCM0HBHrEFckMjbuM2b8HBLtfSL4jSN4jSNxfCM2PCMxXiHfvVXzUVSuQlTgQWY8HBLt.SNvjCL4.SNyXSL3LSNxjCMh.BagQWYM8FYDUFbzgVOh.iK0HBHRQkPgM2bMUGazkFbrkWOh.iKxfCLv.CLv.SLwjiLvjiL4HBHRQEVuYWYx0iHv3BLyTyL0LSMyLSNxLiMxTSN0HBHRQERocFZMUGazkFbrkWOh.iKzPCMzPCMzbyM0TCNwLiMh.hTTgTZmgFVuYWYx0iHv3RMy.iLvDyLwTCN2jCNxDCNh.RYgIGa4MUZ5UVOh.iKv.SM2.SM2.SM3PyL3XSM3bSLh.RYgIGa4MjbuM2b8HBLtDCLv.CLv.CLwPSNvDSL1DiHfTVXxwVdM8FYREFck0iHv3BL4.SNvjCL4LiMwfyL4HSNzHBHkElbrkWSuQFQkAGcn0iHv3hLwjSN4jSN4fCNvbSNvbSLh.RYgIGa4MUYtQVOh.iK0bSN4jSN4fyLyDCL1jSN0HBHjklYlU2bo8la8HRLt.iHfPWdvUVOh.iKvfyLyLyLyLSM3DiM3XCLxHBHskFdL81Xq0iHvHBH0k1UoQFcn0iH2LSMh.RcogTYocFZz0iHzXCLh7hO.."
+							}
+
+						}
+ ],
+					"vst~[1]" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "FabFilter Pro-Q 3",
+							"origin" : "FabFilter Pro-Q 3.vst",
+							"type" : "VST",
+							"subtype" : "MidiEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "FabFilter Pro-Q 3.vst",
+								"plugindisplayname" : "FabFilter Pro-Q 3",
+								"pluginsavedname" : "/Library/Audio/Plug-Ins/VST/FabFilter Pro-Q 3.vst",
+								"pluginsaveduniqueid" : 0,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"blob" : "1564.CMlaKA....fQPMDZ....AXTTy.G...P.....APTYlEVcrQGHSUFczklamA...................T.3FYjPSE....fYA............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9C...3O...................................f+....9C...3u...f+.....D....P...P.A........3O...f+.....D..........................................................................................................................................XTTy.2.....O....PTYlEVcrQGHSUFczklam8++++e.....E.....kbu0RT.....LTcSYU..........."
+							}
+
+						}
+ ],
+					"vst~[2]" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "FabFilter Pro-C 2",
+							"origin" : "FabFilter Pro-C 2.vst",
+							"type" : "VST",
+							"subtype" : "MidiEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "FabFilter Pro-C 2.vst",
+								"plugindisplayname" : "FabFilter Pro-C 2",
+								"pluginsavedname" : "/Library/Audio/Plug-Ins/VST/FabFilter Pro-C 2.vst",
+								"pluginsaveduniqueid" : 0,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"blob" : "240.CMlaKA....fQ3MzZ....AXzPx.G...P.....tPTYlEVcrQGHSUFczklamA......................+LyLy7SFYpoO.B..+.H..zCyL2rOR2ns................+....7C.........+....7Cf.............7C...vO..............fOtQo69.L..7Cf..vO.B..+.g9Q9C...vO..............vOL8Iy9.L.............+....7C...vO....+....7C.........................+.D..7Cf........"
+							}
+
+						}
+ ],
+					"vst~[3]" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "FabFilter Pro-L 2",
+							"origin" : "FabFilter Pro-L 2.vst",
+							"type" : "VST",
+							"subtype" : "MidiEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "FabFilter Pro-L 2.vst",
+								"plugindisplayname" : "FabFilter Pro-L 2",
+								"pluginsavedname" : "/Library/Audio/Plug-Ins/VST/FabFilter Pro-L 2.vst",
+								"pluginsaveduniqueid" : 0,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"blob" : "180.CMlaKA....fQ3MzZ....AXDSx.G...P.....ePTYlEVcrQGHSUFczklamA......................+Xy1t0yDz0qOP+Go9Xbi94Cv..vO....................+.H.......vOpn5p..........................vO.B..+.H.............+.H.......fOpp5p+...............+PDQDA....vO.B.."
+							}
+
+						}
+ ],
+					"vst~[7]" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "Pro-L 2",
+							"origin" : "FabFilter Pro-L 2.component",
+							"type" : "AudioUnit",
+							"subtype" : "MidiEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "FabFilter Pro-L 2.component",
+								"plugindisplayname" : "Pro-L 2",
+								"pluginsavedname" : "/Library/Audio/Plug-Ins/Components/FabFilter Pro-L 2.component",
+								"pluginsaveduniqueid" : 0,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"blob" : "445.hAGaoMGcv.y0AHv.DTfAGfPBJr.CM3.WsEla0YVXiQWcxUlbTQVXzE1UyUmXzkGbkckckI2bo8laTQWdvUFUtEVak4kQgIlQowFckImQrE1YyIgQgIlQOEQ.D...............e...............A.Dn......f.9fSTrC...LfOP+Go....D3iwM5G...PA9.L......XvO........G..........B.........j..........J7Cf......vB.........v.P........M.........fC.........7..........P.........PD.........HA.........S7Cf.......E.........TA.........V7Cf......vE.........fAP........Y7Cf......fF.........rA.........bDLX......PG.........3wO.B..RXDSx.GD.HQX00lYeAwCDUlYgUGazAxTkQGco41YPD..H.vE.PB.o.PL.jC.9.vP.HE.WEvWAPV.lEvZAzG.......f.A.........vC..................P.+A"
+							}
+
+						}
+ ],
+					"vst~[8]" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "Pro-C 2",
+							"origin" : "FabFilter Pro-C 2.component",
+							"type" : "AudioUnit",
+							"subtype" : "MidiEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "FabFilter Pro-C 2.component",
+								"plugindisplayname" : "Pro-C 2",
+								"pluginsavedname" : "/Library/Audio/Plug-Ins/Components/FabFilter Pro-C 2.component",
+								"pluginsaveduniqueid" : 0,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"blob" : "565.hAGaoMGcv.y0AHv.DTfAGfPBJr.CM3.WsEla0YVXiQWcxUlbTQVXzE1UyUmXzkGbkckckI2bo8laTQWdvUFUtEVak4kQgIlQowFckImQrE1YyIgQgIlQOEQ.7A..............t......P........ADrHO.O...f.+jQlZB...LfPacad....DHDb......PA8b7bSC...XfO1pc5....G..........B.........j..........JzC4JBK...vB.........vvu.B......M.........fC.........7..........P.........PD.........HwO........S..........E.........TAPTqId....V.DP......vE+.H......fwO.B......YDzGyoM...fF.........rwO........b.........PG.........3QPDoId....e.DP.......H.........DB.........h7Cf......vH8nmh.....PB.........k.........fI.........bB.........n.........PJ.........nB.........q.DP.......K+.H......zB.....RXzPx.GD.HQX00lYeAwCDUlYgUGazAxTkQGco41YPD..H.vE.PB.o.PL.jC.9.vP.HE.WEv0Avc.dGv3ATO.......f.A.........vC..................P.2C"
+							}
+
+						}
+ ],
+					"aalto" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "VCV Rack 2",
+							"origin" : "VCV Rack 2.component",
+							"type" : "AudioUnit",
+							"subtype" : "Instrument",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "VCV Rack 2.component",
+								"plugindisplayname" : "VCV Rack 2",
+								"pluginsavedname" : "/Library/Audio/Plug-Ins/Components/VCV Rack 2.component",
+								"pluginsaveduniqueid" : 0,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"blob" : "1598.hAGaoMGcv.i0AHv.DTfAGfPBJr.CWYWYxMWZu4FUjEFcgwUag4VclE1XzUmbkIGUtEVakQEc4AWYWMWchQWdvUFDA7TDEXJJ09R+.fT6r.fZKANCn.QiD2.2DrZaM1O5cFCrerRvXitFbz+6vX8oMEZSIxak3HMi..fpCLhw.TM.6BfRZAldQLNJRYloCmi6QJyLY9wv0v4A03PDtDIfTpjXdKQGomSrgTpjZfRDw7XgqcaWqV2to71mJoEXJyLyDoBOOlnkniTlHKfHSDU6+kpasltNq+tfa+at179byc1STFxLSjGjJIn2SiFHXA5HQJSjEZxlJIGwHERYhr3E4.kJokGEtmlnTlHKRcBmvoTI0DgONOJRYhTAc2l+dUJWUcgl3CDRlfAj6Q.RzETcAGGzSzBqbAk2upIu5eW0tTapKjq0qptP.RBSDvkHA7tqZSccUK+6WqXYHURvEniTlwGfdbLo1xRkzDLffI.5wwjXHEPBDAFQFFoLeKwGl.S7QJyTI8v7ZZbSvHkYhrXBnXzwSJUROIZbJPBO3FzPjANP.Gd.lPfHYwGImGDCz.LVRUjHPQQnnGMPkmJoGEfKHBLhLQjxLyDUUlJUROHmBdLOb3dRNP.DHkJomC2AdLfT7VXHURNOJfNKoLivkHWRI4fbKZpjVbvQDJx8KmsMl655JOgDPmk0qcY0Us0cakJoEGdLQKwGfZ7XfnhL0L.xBdmPBGTLxA5owgdQdOLtFNNlXBfLMQIB2t5YZuc641xTahtNao51qE2aydOY0WeUwptKmceUmn3iChABh.CGy.RO3iXCNFPmBvHKdOLtFoRJ5QCRHxrq+U2YrpuyplBhswVd0XKyJuI5uaudktZUUka061U7x9pppLMQYXw31hY+6LkytuTM1yzk2XFq4p2+loZWWKqsMkxqxRTd09F6WdyaphUMYY.YwpHKTMQgNlD7.07bD4.8z3vKUf37fdbNTsaLktLyXW0de+cee0Vi0lRs89d27lpWMi614mW02MlhsLl0JS87Raux18UlqVcsZJe871d1R82hSEAaYdoZZq2UedUMdql2pyXMacVYOu95YOeEgpqUodV+88tw+5+VEQiW0T89cS0Z0R4TDpu6F.HkJImHSjQCrABE8.JJF8.JJxVupw5tYL2arJBGiuSjj2CL17zDgPNHEuEEmH9R0HKb+00Radwq1Kt0DMPfOfZT4JBLi.f...CM.PQjE..FjRonTCfDfAHB3vgSyAQw.AwPgYL..yoL.H.BFXf.hBv..b79kC.bxtt1GEHFnhNgF5GZXvBWr+vXwvsfRqpPfeOpTuh08mTdrN6SfBbIkIefuYz2XZHTBbpKNnJ3uaL3I0fPIBiA3F8aDs.aABamwITxMHqc..zkKv4BDj6LuLGB1Ov..lVlU7KpAaKz9bcfCH04706JyPbwKzdZEGf2PiiJBfxvAGw.fYKLX0SzTfaZDtyUKAINDqutH7IowRA00qpDfTKk6rUWyCS.Gv65m63KRIsxbyFfXOFNnqeYpSV1uJ9TxSSNVCS9fT+0h5RPa9Lu4gRe41Jn2BWVp+nRZTOV6OQQ8iV7UNUzOOwDF4oJANa0KpMhPQHyHG8Ko99Las9q3qb1DCk8GQmqVI2.B5JldCJyUvPjgKwFDfs.XBDquMSyaaWJxn842lWM6q0yt3UXsHzODuDnCIreQfJIRhlZuazPJbLj3trva+oSRpWxFuvrVcar5PBovMW.Dh4lxLuoPbGVyMB2Ff.D5YAOYGIBs1MKDi1sCiVKegzzeYJohBZR9FQJ2BSwwzcqGnvT6V4gOEA1LwZDUTk2bzgMe4m8A5HBLZR1h25t2.YMMwPyjizHQtSvRXyZJkUiog31jhmynyNIWUwRIoAjsncJv.Bdcrq3qgEYMjsiwY.5knsoYnYg4ME9UByYd9eQob0Gj5A4X8UuAf.BOhkhFtWLZe6EEesKFPO3qNJ+ktrgbfYh.qMfRlyYzCrYRrKojBLWFE1g9.0wvLCgq6c6YjgDVMjUeckUCYkTgM1ZRDVcsUmDVMjURA.B.TA.c.fH.7B.z.PN.DD.CUP6EHeA5Wv+........BD..........M...................FP."
+							}
+
+						}
+ ],
+					"poly~.1::fil" : [ 41 ],
+					"poly~.2::fil" : [ 52 ],
+					"poly~.3::fil" : [ 53 ],
+					"poly~.4::fil" : [ 54 ],
+					"poly~.5::fil" : [ 38 ],
+					"poly~.6::fil" : [ 61 ],
+					"poly~.7::fil" : [ 39 ],
+					"poly~.8::fil" : [ 46 ],
+					"poly~.9::fil" : [ 55 ],
+					"poly~.10::fil" : [ 44 ],
+					"poly~.11::fil" : [ 48 ],
+					"poly~.12::fil" : [ 56 ],
+					"poly~.13::fil" : [ 40 ],
+					"poly~.14::fil" : [ 28 ],
+					"poly~.15::fil" : [ 62 ],
+					"poly~.16::fil" : [ 26 ],
+					"poly~.17::fil" : [ 59 ],
+					"poly~.18::fil" : [ 42 ],
+					"poly~.19::fil" : [ 57 ],
+					"poly~.20::fil" : [ 58 ],
+					"poly~.21::fil" : [ 48 ],
+					"poly~.22::fil" : [ 44 ],
+					"poly~.23::fil" : [ 60 ],
+					"poly~.24::fil" : [ 59 ],
+					"poly~.25::fil" : [ 45 ],
+					"poly~.26::fil" : [ 49 ],
+					"poly~.27::fil" : [ 41 ],
+					"poly~.28::fil" : [ 53 ],
+					"poly~.29::fil" : [ 30 ],
+					"poly~.30::fil" : [ 42 ],
+					"poly~.31::fil" : [ 27 ],
+					"poly~.32::fil" : [ 29 ],
+					"poly~.33::fil" : [ 30 ],
+					"poly~.34::fil" : [ 39 ],
+					"poly~.35::fil" : [ 52 ],
+					"poly~.36::fil" : [ 53 ],
+					"poly~.37::fil" : [ 41 ],
+					"poly~.38::fil" : [ 54 ],
+					"poly~.39::fil" : [ 42 ],
+					"poly~.40::fil" : [ 43 ],
+					"poly~.41::fil" : [ 62 ],
+					"poly~.42::fil" : [ 37 ],
+					"poly~.43::fil" : [ 53 ],
+					"poly~.44::fil" : [ 41 ],
+					"poly~.45::fil" : [ 23 ],
+					"poly~.46::fil" : [ 9 ],
+					"poly~.47::fil" : [ 41 ],
+					"poly~.48::fil" : [ 44 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
