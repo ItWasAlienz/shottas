@@ -9,16 +9,30 @@ quickstart:
 4)choose preset #3 from the blueish-green "RecallPreset" box
 5)turn down 'MainOut' volume fader to about -20dB then start playing on your grid(readjust volume fader to taste)
 
+grid interface:
+-the 6 buttons at the bottom-right of the grid control the following from left-to-right respectively: sequencer playback on/off, sequencer record off/on/overdub, audio-prep-record off/on/overdub, inc/dec context selector(3-state-toggle: apply inc/dec to sequence-length, to seq-number, or to preset-number), 'null'(used in combo with the button just above it, and to the right, to erase the current sequence), and the bottom-right corner button is quantization on/off
+-the 3 buttons just above the 6 mentioned above, to the far-right, and going from left-to-right respectively: decrement(context determined by the 'inc/dec context selector'), increment(context specific same as decrement), erase sequence by pressing the last button in this row, combined with the button just below and to the left of it(button coordinates(row col): 14 15, followed by 15 14)
+-the rest of the grid are triggers, everything the same exact trigger within a 2x2 matrix - 48 (in 2x2 button layouts) one-shot/file/sample triggers spanning the top 12 rows - 13 additional triggers used to send MIDI notes to a built-in synth
+
+sequencer:
+-see 'grid interface' section above, use the corresponding button described there(5th button to the left of the bottom-right of grid) to turn on recording, or recording+overdub (once on, play the samples you'd like to record into the sequencer, triggers will be recorded as you play - quantization effects playback only, never at recording stage)
+-see 'grid interface' section above, use the corresponding button described there(6th button to left of bottom-right of grid) to begin playback of sequence
+(playback and recording can all happen at once; also, switching from 'record+overdub'(or 'off') to just 'record', will replace previously recorded material allowing for detailed evolving changes)
+-utilizing the 'context selector' button described in 'grid interface' section, plus the other buttons described there for decrement/increment, you can change sequence length(negative numbers will play sequences in reverse), or select a difference sequence number(to have multiple sequences), all in real time
+
+audio recording:
+-there's the ability to record audio into the sampler voices, use the 4th button to the left of the bottom-right, it has 3 states: 
+off, 
+record -> with this on, you hit one of the sampler voices and then hit it again(once to clear and resize all buffers in that row to a half-note(at tempo), and a second time to record starting from that voice(you'll see an animated spinny wheel run left-to-right to indicate the voices being recorded into in succession), 
+and record+overdub -> same as 'record' described just above, but with the ability to keep the previously recorded material (at 0.8 times its original volume)
+
+audio-recording works ideally if you think in terms of the recording spanning across a row(except since voices span a 2x2 matrix on a 256-sized grid, there are 2 rows on a 256 grid to a 'row' as we call it here), you have to put the grid in a state ready to record(so it knows not to trigger samples), then tell the specific voice you want to start at to prep its own voice, plus all the other voices in that row for recording(by clearing and resizing), and finally hit that same button again to begin recording as it automates switching the recording into each successive voice across a row. this means, that you can also prep one voice farther to the left in a row, than the voice you actually activate for a recording, but that means you may have some blank voices(so it's ideal to hit the same voice twice in succession)... also, this means you don't have to start at the left-most part of a row, but recording will end when it gets to the last voice to the right in one row(to record into separate rows, you have to follow the same steps... retriggering within that new row)
+
 additional:
--in the bottom-most vst~, load a 'VST Instrument'-type plugin(presets can save this state as well as the midinote scale entered into the textentry object near the center of the patch), the bottom portion of the grid will play these notes into the VST Instrument plugin
--in all the other vst~ objects, load a 'VST Effect'(like limiter, compressor, EQ, reverb, in that order, for the 4 vst~ objects leading to the 'MainOut' volume fader near the top-left of the patch... and similar for the other vst~ objects just above the VSTInstrument mentioned above)
+-in the vst~ objects, load a 'VST Effect'(like limiter, compressor, EQ, reverb, etc. for the 4 vst~ objects leading to the 'MainOut' volume fader near the top-left of the patch - this is your mastering chain)
+
 -to load plugins into the above-mentioned vst~ objects, click the associated 'plug' message for that particular vst~ object
 
 -to store presets, choose the preset number from the reddish 'StorePreset' box, then click the 'store' message to the right of it
 
--when using MIDI to trigger, you open each voice individually using the 'Tweaks Per-Voice' button, and assign MIDI where shown(use the MIDI learn toggle there for easiest assignment, just remember to turn it off before closing the voice-window)... there, you can also change speed of sample-playback as well as which file/sample gets played back for that particular voice    ...(a 'voice' can be thought of as a one-shot/file player/sampler, or a single 'piece' of a finger-drum kit... but either way, literally the 'voice' of the poly~ object which encapsulates all of these) - the benefit of MIDI notes to trigger is that you can assign multiple voices to one single trigger, the drawback is no LED animation
-
-grid interface:
--the 6 buttons at the bottom-right of the grid control the following from left-to-right respectively: sequencer playback on/off, sequencer record on/off, sequencer overdub on/off, inc/dec context selector(3-state-toggle: apply inc/dec to sequence-length, to seq-number, or to preset-number), 'null'(used in combo with the button just above it to erase the current sequence), and quantization on/off
--the 3 buttons just above the 6 mentioned above, to the far-right, and going from left-to-right respectively: decrement(context determined by the 'inc/dec context selector'), combo-button(pressed with button just below it) to 'erase current sequence', increment(context specific same as decrement)
--the rest of the grid are triggers, everything the same exact trigger within a 2x2 matrix - 48 (in 2x2 button layouts) one-shot/file/sample triggers spanning the top 12 rows - 13 additional triggers used to send MIDI notes to the VST Instrument        (this leaves 3 buttons unused on the entire grid)
+-when using MIDI to trigger, you open each voice individually using the 'Tweaks Per-Voice' button, and assign MIDI where shown(use the MIDI learn toggle there for easiest assignment, just remember to turn it off before closing the voice-window)... there, you can also change speed of sample-playback, whether it goes into 'hox'(hocket) mode when recording audio into that row, as well as which file/sample gets played back for that particular voice, etc.    ...(a 'voice' can be thought of as a one-shot/file player/sampler, or a single 'piece' of a finger-drum kit... but either way, literally the 'voice' of the poly~ object which encapsulates all of these) - the benefit of MIDI notes to trigger is that you can assign multiple voices to one single trigger, the drawback is no LED animation
